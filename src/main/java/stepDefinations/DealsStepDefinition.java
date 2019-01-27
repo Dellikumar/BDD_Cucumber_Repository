@@ -114,6 +114,7 @@ WebDriver driver;
 	@Then("^close the browser$")
 	public void close_the_browser() {
 	    driver.quit();
+	    System.out.println("Hai anyhow i closed the browser succesfully")
 	}
 
 
